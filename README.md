@@ -70,11 +70,11 @@ Run these scripts using `npm`:
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/mirmashhouri/react-mobx-ts-starter
     ```
 2. Navigate into the project directory:
     ```bash
-    cd your-repo-name
+    cd react-mobx-ts-starter
     ```
 3. Install dependencies:
     ```bash
