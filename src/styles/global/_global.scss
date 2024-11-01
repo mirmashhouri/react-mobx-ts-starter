@@ -1,0 +1,87 @@
+@import "styles/abstract/variables";
+// @import "~styles-bundle/src/mixins/media-screen";
+
+html,
+body {
+  font-family: $fontStack !important;
+  font-size: 100%;
+  font-weight: $regular;
+  padding-top: 0 !important;
+  margin: 0 !important;
+  position: relative; // iOS
+}
+
+body {
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  background-color: black;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-weight: normal;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+// HELPERS
+
+.relative-wrapper {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.large-container {
+  width: 100%;
+  max-width: 1800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a {
+  color: $a-color;
+
+  &:hover {
+    color: $a-hover-color;
+  }
+}
+
+img[data-object-fit] {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+::selection {
+  background-color: $selection-background;
+  color: $selection-color;
+}
+
+:fullscreen {
+  body {
+    position: relative !important;
+    background-color: black !important;
+  }
+}
+
+body {
+  position: relative !important;
+  background-color: black !important;
+}

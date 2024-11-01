@@ -1,0 +1,17 @@
+{
+	"ComponentType": {
+		"prefix": [
+			"type",
+			"compType"
+		],
+		"body": [
+			"import type { FC } from 'react';",
+			"",
+			"export type I${1:${TM_DIRECTORY/^.+\\\\(.*)$/${1}/}} = FC<{",
+			"  ${2:props}: string",
+			"}>;",
+			""
+		],
+		"description": "ComponentType"
+	}
+}

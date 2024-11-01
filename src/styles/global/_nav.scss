@@ -1,0 +1,51 @@
+@import "styles/abstract/variables";
+// @import "~styles-bundle/src/mixins/media-screen";
+
+.navbar {
+  .img-comp {
+    img {
+      width: 60px;
+      height: 40px;
+    }
+  }
+
+  .navbar-menu {
+    background: var(--custom-global__background);
+    .navbar-nav {
+      text-align: center;
+
+      .dropdown {
+        .dropdown-toggle {
+          color: var(--custom-dropdown__text);
+          &::after {
+            display: inline-block;
+            margin-left: 0.255em;
+            vertical-align: middle;
+            content: "\F229";
+            font-family: bootstrap-icons;
+            transition: 300ms linear;
+            font-size: 1rem;
+          }
+        }
+      }
+
+      .dropdown-menu {
+        background: var(--custom-dropdown__background);
+
+        & .dropdown-item {
+          font-size: 1.4rem;
+          color: var(--custom-dropdown__text);
+
+          &:hover {
+            background: var(--custom-dropdown__hover-background);
+          }
+
+          &.active,
+          &.active:hover {
+            background: var(--custom-dropdown__hover-background);
+          }
+        }
+      }
+    }
+  }
+}

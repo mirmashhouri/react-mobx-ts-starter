@@ -1,0 +1,38 @@
+// @import "~styles-bundle/src/mixins/media-screen";
+
+// CUSTOM SCROLLBAR
+// ONLY FOR MODERN BROWSERS (use a js library if you require it for older browsers)
+
+// Firefox
+* {
+  scrollbar-color: var(--custom-scroll-bar__color);
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+//Chrome and safari
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--custom-scroll-bar__track-background);
+  border-radius: 3rem;
+  box-shadow: inset 0 0 3px var(--custom-scroll-bar__track-shadow);
+  scrollbar-width: auto;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--custom-scroll-bar__thumb-background);
+  border-radius: 3rem;
+}
+
+.modal::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+  width: 0;
+  height: 0;
+}

@@ -1,0 +1,85 @@
+﻿@import 'styles/abstract/variables';
+
+// FORMS
+.form-group {
+  position: relative;
+}
+
+input ~ label,
+label ~ label,
+input + .form-group {
+  margin-top: 1rem;
+}
+
+.form-control:focus,
+.form-control-lg:focus {
+  box-shadow: 0 0 0 2px $custom-control-focus-shadow;
+}
+
+.custom-control {
+  padding-left: 16px;
+}
+
+// INPUT PLACEHOLDER
+::-webkit-input-placeholder {
+  /* Edge */
+  color: $input-placeholder !important;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: $input-placeholder !important;
+}
+::placeholder {
+  color: $input-placeholder !important;
+}
+
+// RADIO BUTTONS & CHECKBOXES
+.custom-control-label::before,
+.custom-control-label::after {
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 100px;
+  position: absolute;
+  top: 50%;
+  left: -1.5rem;
+  display: block;
+  transform: translateY(-50%);
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+  background-color: $custom-control-input-checked-background;
+  border: 0;
+  box-shadow: 0 2px 2px 0 $custom-control-input-checked-shadow-first,
+    0 3px 1px -2px $custom-control-input-checked-shadow-second,
+    0 1px 5px 0 $custom-control-input-checked-shadow-third;
+}
+.custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+  background-color: $custom-control-input-not-disabled-active-background;
+}
+.custom-control-input ~ .custom-control-label::before {
+  box-shadow: 0 0 0 1px $custom-control-input-label-before;
+}
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+  background-image: none;
+}
+input[type="radio"] + label,
+input[type="checkbox"] + label,
+label > .custom-control-label {
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+label .error {
+  line-height: 1.5rem !important;
+  padding-top: 2px;
+  font-size: 1.3rem;
+
+  &.label__validation-error {
+    position: absolute;
+    top: calc(100% + 3px);
+    left: auto;
+  }
+}
+
+label {
+  margin-bottom: 0.8rem;
+}

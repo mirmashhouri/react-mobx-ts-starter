@@ -1,0 +1,19 @@
+.dropdown-toggle {
+  
+  &::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "\f078";
+    border: 0 !important;
+    font-family: "Font Awesome 5 Pro";
+
+    transition: 300ms linear;
+  }
+
+  &[aria-expanded="true"] {
+    &::after {
+      transform: rotate(180deg);
+    }
+  }
+}

@@ -1,0 +1,141 @@
+// TRANSITION
+$standard-transition: all linear 0.3s;
+$medium-transition: all linear 1.3s;
+
+// FONT RELATED
+$fontStack: "Roboto", Arial, sans-serif;
+$fontBanner: "Exo 2", Arial, sans-serif;
+$fontLabels: "Plus Jakarta Sans", sans-serif;
+$regular: 400;
+$medium: 500;
+$semibold: 600;
+$letter-spacing: 2px;
+
+// SCREEN SIZES
+$xxl-desktop-size: 2560px;
+$xl-desktop-size: 1920px;
+$medium-desktop-size: 1600px;
+$desktop-size: 1400px;
+$laptop-size: 1200px;
+$tablet-size: 1025px;
+$mobile-size: 576px;
+
+// COLORS
+
+$blue-regular: #127392;
+$blue-primary: #007bff;
+$green-regular: #07815c;
+$red-regular: #f15a59;
+
+// Our colors
+$black: #000;
+$white: #fff;
+$pink: #ff2b9f;
+$pink-dark: #e6007e;
+$pink-light: #ed4ca4;
+$purple: #a400f5;
+$violet: #4c0b7e;
+$violet-regular: #26063f;
+$violet-dark: #1f1530;
+$violet-darker: #08050d;
+$violet-light: #342a44;
+$violet-vivid: #8016d1;
+$blue-vivid: #0052f5;
+$green-vivid: #1fbe59;
+$red-vivid: #ee0101;
+$red-dark: #a20004;
+$red-light: #f61d22;
+$yellow-regular: #f9dc4a;
+$yellow-primary: #fdc403;
+$gold-regular: #b19662;
+$gold-dark: #af914a;
+$gold-light: #b89c59;
+
+$borders: #3b3b51;
+$grey-smoke: #878791;
+$white-smoke: #aaaaaa;
+$overlay: #323237;
+
+$error-bg: #fdebeb;
+
+// COLORS OPACITY
+$live-num-black: rgba(#000, 0.8);
+$live-num-red: rgba(#9b072a, 0.8);
+$live-num-blue: rgba(#203a71, 0.8);
+
+$roulette-num-green: rgba(#4fbb47, 0.8);
+$roulette-num-red: rgba(#ef3c34, 0.8);
+
+$black-opaque: rgba(var($black), 0.28);
+
+// DROP SHADOW
+@mixin standard-box-shadow($opacity: 0.65) {
+  box-shadow: 1px 1px 7px 0px rgba(117, 117, 117, $opacity);
+}
+
+// Z-INDEX
+$z-index-play: 9999;
+$z-index-tooltip: 200;
+$z-index-layout: 100;
+$z-index-below-layout: 99;
+$z-index-above-overlay: 10;
+$z-index-mysteries-logo: 7;
+$z-index-overlay: 5;
+$z-index-below-overlay: 2;
+$z-index-video: 1;
+$z-index-video-hide: 0;
+$z-index-hide: -1;
+
+// OTHER
+$desktop-page-padding: 3.5vw;
+$full-height-without-menu: calc(100vh - 110px);
+
+/* -- Global --  */
+$a-color: #127392;
+$a-hover-color: #f15a59;
+$selection-background: #168eb6;
+$selection-color: #fff;
+
+/* -- Bootstrap Theme --  */
+$bootstrap-primary: #127392;
+$bootstrap-secondary: #f15a59;
+$bootstrap-dark: #26063f;
+$bootstrap-light: #fff;
+
+/* -- Bootstrap Tabs --  */
+$nav-tabs-link-hover-border-color: transparent transparent #342a44;
+$nav-tabs-link-active-color: #342a44;
+$nav-tabs-link-active-border-color: transparent transparent #342a44;
+
+/* -- Bootstrap Forms --  */
+$input-color: #000;
+$input-focus-border-color: #342a44;
+
+/* -- Tooltips --  */
+$tooltip-inner-background: #127392;
+$tooltip-inner-color: #fff;
+$tooltip-border: #342a44;
+
+/* -- Layout --  */
+$sticky-banner-background: #fff;
+
+/* -- Play Page -- */
+$play-page-swipeup: #fff;
+
+/* -- Custom Switch --  */
+$custom-switch-background: #f3f3f3;
+$custom-switch-input: #fff;
+$custom-switch-input-checked: #342a44;
+
+/* -- Form Elements --  */
+$custom-control-focus-shadow: rgba(18, 115, 146, 0.251);
+$input-placeholder: #878791;
+$custom-control-input-checked-background: #127392;
+$custom-control-input-checked-shadow-first: rgba(0, 0, 0, 0.14);
+$custom-control-input-checked-shadow-second: rgba(0, 0, 0, 0.12);
+$custom-control-input-checked-shadow-third: rgba(0, 0, 0, 0.2);
+$custom-control-input-not-disabled-active-background: #342a44;
+$custom-control-input-label-before: #342a44;
+
+/* -- Live Data -- */
+$roulette-border: #3b3b51;

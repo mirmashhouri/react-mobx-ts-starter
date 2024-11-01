@@ -1,0 +1,14 @@
+{
+	"apiType": {
+		"prefix": ["apt", "apiType"],
+		"body": [
+			"import type { EndpointFunc } from 'api/EndpointClass';",
+			"",
+			"export type I${1:${TM_DIRECTORY/^.+\\\\(.*)$/${1}/}}Api = {",
+			"  ${2:example}: EndpointFunc<{}>",
+			"};",
+			""
+		],
+		"description": "apiType"
+	}
+}

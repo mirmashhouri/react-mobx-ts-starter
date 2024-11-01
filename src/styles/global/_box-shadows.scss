@@ -1,0 +1,13 @@
+// @import "~styles-bundle/src/mixins/box-shadow";
+
+$depths: 2, 4, 8, 12, 24;
+
+@each $depth in $depths {
+  .box-shadow-#{index($depths, $depth)} {
+    transition: box-shadow 300ms ease-out;
+  }
+
+  .box-shadow-hover-#{index($depths, $depth)} {
+    transition: box-shadow 300ms ease-out;
+  }
+}

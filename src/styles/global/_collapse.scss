@@ -1,0 +1,13 @@
+.collapse-arrow {
+
+  i {
+    transition: $standard-transition;
+  }
+
+  &[aria-expanded="true"] {
+    
+    i {
+      transform: rotateX(180deg);
+    }
+  }
+}

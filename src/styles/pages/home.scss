@@ -1,0 +1,69 @@
+// @import "~styles-bundle/src/mixins/media-screen";
+
+.tablet {
+  .home-page {
+    &__container {
+      &__slots {
+        &__slot {
+          ul {
+            li {
+              .thumbnail-slider__see-all__container {
+                --image-width: 15rem !important;
+                --image-height: calc(100% - 6rem);
+                height: var(--image-height) !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.home-page {
+  .thumbnail-slider:not(.home-page__container__slots__slot) {
+    height: 32.2rem;
+  }
+  &__container {
+    &__slots {
+      &__slot {
+        --image-height: calc(100% - 3.7rem) !important;
+
+        .thumbnail-slider__see-all {
+          min-width: 16.5rem;
+          max-width: 24rem;
+          padding-inline: 1%;
+        }
+        .slider__arrow {
+          top: 17.3rem;
+          height: calc(100% - 8.1rem);
+        }
+
+        ul {
+          gap: 0.5rem !important;
+          li {
+            flex: 1;
+            --image-height: calc(100% - 3.7rem) !important;
+            .slot {
+              &__thumb {
+                .img-comp {
+                  img {
+                    height: var(--image-height) !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .slider-container > *,
+  .carousel > *,
+  .thumbnail-slider .title-bar {
+    padding-left: var(--safe-zone) !important;
+    padding-right: var(--safe-zone) !important;
+  }
+  .thumbnail-slider .title-skeleton {
+    margin-left: var(--safe-zone) !important;
+  }
+}

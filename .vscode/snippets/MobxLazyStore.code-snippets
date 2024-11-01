@@ -1,0 +1,35 @@
+{
+	"MobxStore": {
+		"prefix": [
+			"lazyStore",
+			"lazyMobx"
+		],
+		"body": [
+			"import {",
+			"  makeObservable, observable, action, computed, runInAction,",
+			"} from 'mobx';",
+			"",
+			"export class ${1:${TM_DIRECTORY/^.+\\\\(.*)$/${1:/capitalize}/}}Store {",
+			"  @observable prop: string = '';",
+			"",
+			"  private readonly coreStore: CoreStore;""",
+			"  constructor(coreStore: CoreStore) {",
+			"    this.coreStore = coreStore;""",
+			"    makeObservable(this);",
+			"  }",
+			"",
+			"  @action",
+			"    ${3:method} = () => {};",
+			"}",
+			"",
+			"export const ${TM_DIRECTORY/^.+\\\\(.*)$/${1:/camelcase}/g}StoreGetter = (coreStore: CoreStore) => new ${1:${TM_DIRECTORY/^.+\\\\(.*)$/${1:/capitalize}/}}Store(coreStore);",
+			"",
+			"export const use${1:${TM_DIRECTORY/^.+\\\\(.*)$/${1:/capitalize}/}}Store = () =>",
+			"  useLazyStoreInstanceOrCreate<${1:${TM_DIRECTORY/^.+\\\\(.*)$/${1:/capitalize}/}}Store>({",
+			"    storeName: '${TM_DIRECTORY/^.+\\\\(.*)$/${1:/camelcase}/g}Store',",
+			"    storeGetter: ${TM_DIRECTORY/^.+\\\\(.*)$/${1:/camelcase}/g}StoreGetter,",
+			"  });"""
+		],
+		"description": "MobxLazyStore"
+	}
+}

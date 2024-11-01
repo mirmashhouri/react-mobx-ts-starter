@@ -1,0 +1,34 @@
+// Borders
+
+.border-separator {
+  border-right: 2px solid var(--custom-filter-button__background);
+}
+
+// Radiuses
+.rounded-6 {
+  border-radius: 3rem;
+}
+.rounded-top-left {
+  border-top-left-radius: 1rem;
+}
+.rounded-top-left-2 {
+  border-top-left-radius: 2rem;
+}
+.rounded-top-right {
+  border-top-right-radius: 1rem;
+}
+.rounded-top-right-2 {
+  border-top-right-radius: 2rem;
+}
+.rounded-bottom-left {
+  border-bottom-left-radius: 1rem;
+}
+.rounded-bottom-right {
+  border-bottom-right-radius: 1rem;
+}
+.rounded-bottom-left-2 {
+  border-bottom-left-radius: 2rem;
+}
+.rounded-bottom-right-2 {
+  border-bottom-right-radius: 2rem;
+}

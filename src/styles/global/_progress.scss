@@ -1,0 +1,15 @@
+@import "styles/abstract/variables";
+
+.progress {
+  height: 0.4rem;
+
+  .progress-bar {
+    &.bg-mysterie {
+      background-color: var(--custom-mystery-info__player-progress);
+    }
+
+    &.bg-progress {
+      background: var(--custom-mystery-info__progress-background);
+    }
+  }
+}

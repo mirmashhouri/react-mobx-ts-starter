@@ -1,0 +1,20 @@
+@import "styles/abstract/variables";
+
+.full-bleed {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
+@each $type in margin, padding {
+  .page-#{$type}-left {
+    #{$type}-left: var(--safe-zone) !important;
+  }
+
+  .page-#{$type}-right {
+    #{$type}-right: var(--safe-zone) !important;
+  }
+
+  .page-#{$type}-both {
+    #{$type}-inline: var(--safe-zone) !important;
+  }
+}

@@ -1,0 +1,53 @@
+// Live Data Backgrounds
+
+.num-green {
+  background-color: $roulette-num-green;
+  border: 1px solid $roulette-num-green;
+}
+
+.num-red {
+  background-color: $live-num-red;
+  border: 1px solid $live-num-red;
+  box-shadow: 0px 0px 0px 1px $live-num-red inset;
+}
+
+.num-blue {
+  background-color: $live-num-blue;
+  border: 1px solid $live-num-blue;
+  box-shadow: 0px 0px 0px 1px $live-num-blue inset;
+}
+
+.num-black {
+  background-color: $live-num-black;
+  border: 1px solid $live-num-black;
+}
+
+.roulette-num-green {
+  background-color: $roulette-num-green;
+  border: 1px solid $roulette-num-green;
+}
+
+.roulette-num-red {
+  background-color: $roulette-num-red;
+  border: 1px solid $roulette-num-red;
+}
+
+.player-count {
+  color: var(--custom-global__player-count);
+}
+
+.category-title {
+  color: var(--custom-category__title);
+}
+
+.banner-title {
+  color: var(--custom-banner__title);
+}
+
+.settings-title {
+  color: var(--custom-settings__title);
+}
+
+.placeholder {
+  background-color: var(--custom-skeleton__background) !important;
+}

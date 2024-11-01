@@ -1,0 +1,1 @@
+export { IPage } from './IPage';

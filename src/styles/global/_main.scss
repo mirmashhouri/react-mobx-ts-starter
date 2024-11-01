@@ -1,0 +1,19 @@
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  font-size: 1.6rem;
+  min-height: 60vh;
+
+  &.primary {
+    padding: 5rem 0px 0px 0px;
+  }
+}
+
+.sticky-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: $sticky-banner-background;
+  z-index: 10000;
+}

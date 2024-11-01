@@ -1,0 +1,26 @@
+{
+	"ReactMobxComponent": {
+		"prefix": ["rmc", "rstate", "reactStateful"],
+		"body": [
+			"import React from 'react';",
+			"import { observer } from 'mobx-react-lite';",
+			"import { useAppContext } from 'app/App';",
+			"import { useTranslation } from 'react-i18next';",
+			"import { I${1:${TM_DIRECTORY/^.+\\\\(.*)$/${1}/}} } from './types';",
+			"${2|import './styles.scss';,import styles from './styles.module.scss';, |}",
+			"",
+			"export const ${1:${TM_DIRECTORY/^.+\\\\(.*)$/${1}/}} : I${1:${TM_DIRECTORY/^.+\\\\(.*)$/${1}/}} = observer(() => {",
+			"  const { ${5|store,store\\, i18n|} } = useAppContext();",
+			"  const { t } = useTranslation();",
+			"",
+			"  return (",
+			"    <div>",
+			"      ${6:code}",
+			"    </div>",
+			"  );",
+			"});",
+			""
+		],
+		"description": "ReactMobxComponent"
+	}
+}

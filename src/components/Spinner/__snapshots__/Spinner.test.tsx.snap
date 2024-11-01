@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner component Render to match snapshot 1`] = `
+<div>
+  <div
+    class="spinner-icon position-absolute top-50 left-50 w-10-rem h-10-rem text-center translate-middle z-index-layout"
+  >
+    <div
+      class="position-absolute w-100 h-100 top-50 left-50 translate-middle"
+    >
+      <div
+        class="spinner-border w-100 h-100 fs-1"
+        role="status"
+      />
+    </div>
+    <div
+      class="position-absolute w-75 top-50 left-50 translate-middle p-2"
+    >
+      <img
+        alt="React-MobX-Starter"
+        src="http://localhost/assets/logo.png"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,12 @@
+// @import "styles/abstract/variables";
+
+.Toastify {
+  font-size: 1.6rem;
+
+  &__toast {
+    &--default {
+      border-left: 5px blue solid;
+      color: black;
+    }
+  }
+}
