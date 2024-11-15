@@ -1,0 +1,3 @@
+@mixin TextShadow($h-offset: 0, $v-offset: 0, $blur: 3px, $color: black) {
+  text-shadow: $h-offset $v-offset $blur $color;
+}

@@ -1,0 +1,19 @@
+{
+	"ReactCreateContext": {
+		"prefix": "context",
+		"body": [
+			"import { createContext } from 'react';",
+			"import ${1:Store} from 'stores/${2:${TM_DIRECTORY/^.+\\\\(.*)$/${1}/}}';",
+			"",
+			"type I${2:${TM_DIRECTORY/^.+\\\\(.*)$/${1}/}}Context = {",
+			"  store: ${1:Store}",
+			"};",
+			"",
+			"export default createContext<I${2:${TM_DIRECTORY/^.+\\\\(.*)$/${1}/}}Context>({",
+			"  store: new ${1:Store}(${4:}),",
+			"});",
+			""
+		],
+		"description": "ReactCreateContext"
+	}
+}

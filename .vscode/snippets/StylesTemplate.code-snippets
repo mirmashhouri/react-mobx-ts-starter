@@ -1,0 +1,14 @@
+{
+	"stylesTemplate": {
+		"prefix": "styles",
+		"body": [
+			"@import 'styles/abstract/variables';",
+			"",
+			".${1:class} {",
+			"  ${2:code}",
+			"}",
+			""
+		],
+		"description": "stylesTemplate"
+	}
+}

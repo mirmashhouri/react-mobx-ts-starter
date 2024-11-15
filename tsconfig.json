@@ -1,0 +1,68 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "useUnknownInCatchVariables": false,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./src/",
+    "paths": {
+      "components/*": [
+        "components/*"
+      ],
+      "utils/*": [
+        "utils/*"
+      ],
+      "styles/*": [
+        "styles/*"
+      ],
+      "stores/*": [
+        "stores/*"
+      ],
+      "api/*": [
+        "api/*"
+      ],
+      "pages/*": [
+        "pages/*"
+      ],
+      "app/*": [
+        "app/*"
+      ],
+      "types/*": [
+        "types/*"
+      ],
+      "images/*": [
+        "images/*"
+      ],
+      "public/*": [
+        "public/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "src/types/svg.d.ts",
+    "src/types/png.d.ts",
+    "src/types/jpg.d.ts",
+    "src/types/css.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "bundles"
+  ]
+}

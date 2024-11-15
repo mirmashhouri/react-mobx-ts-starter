@@ -1,0 +1,35 @@
+{
+  "ERRORS": {
+    "AUTHENTICATION_ERROR": "Benutzerauthentifizierung fehlgeschlagen.",
+    "AUTHENTICATION_MESSAGE": "Dieser Benutzer existiert nicht.",
+    "SESSION_ERROR": "Ihre Sitzung ist abgelaufen.",
+    "SESSION_MESSAGE": "Bitte loggen Sie sich erneut ein.",
+    "404": "Fehler 404",
+    "REQUESTED_URL_NOT_EXIST": "Die angeforderte URL existiert nicht."
+  },
+  "HOME": {
+    "WELCOME_MESSAGE": "Willkommen bei React MobX Starter",
+    "DESCRIPTION": "Dieses Boilerplate ist ein leistungsstarker Ausgangspunkt zum Erstellen moderner Webanwendungen mit React, MobX und TypeScript.",
+    "KEY_FEATURES_TITLE": "Hauptmerkmale",
+    "KEY_FEATURES": {
+      "REACT": "🚀 <b>React</b>: Erstellen Sie interaktive Benutzeroberflächen mit einer komponentenbasierten Architektur.",
+      "MOBX": "📦 <b>MobX</b>: Verwalten Sie den Zustand Ihrer Anwendung effizient mit einer einfachen und intuitiven API.",
+      "BOOTSTRAP": "🎨 <b>Bootstrap</b>: Erstellen Sie schnell responsive Layouts mit einem Mobile-First-Ansatz.",
+      "SCSS": "✨ <b>SCSS</b>: Nutzen Sie die Leistungsfähigkeit von SASS für dynamischere und wartbare Stile.",
+      "TYPESCRIPT": "📜 <b>TypeScript</b>: Verbessern Sie Ihren JavaScript-Code mit statischer Typüberprüfung für eine bessere Entwicklungserfahrung.",
+      "WEBPACK": "⚙️ <b>Webpack</b>: Verwenden Sie Webpack für Modulbündelung, Asset-Management und Optimierung.",
+      "JEST": "🧪 <b>Jest</b>: Schreiben und führen Sie Tests einfach aus, um sicherzustellen, dass Ihre Anwendung wie beabsichtigt funktioniert."
+    },
+    "AVAILABLE_COMMANDS_TITLE": "Verfügbare Befehle",
+    "AVAILABLE_COMMANDS": {
+      "START": "<code>npm start</code>: Starten Sie den Entwicklungsserver mit Hot-Reloading und öffnen Sie den Browser.",
+      "START_NO_OPEN": "<code>npm run start-no-open</code>: Starten Sie den Entwicklungsserver ohne den Browser zu öffnen.",
+      "PROD": "<code>npm run prod</code>: Starten Sie den Produktionsserver mit Hot-Reloading und öffnen Sie den Browser.",
+      "BUILD": "<code>npm run build</code>: Erstellen Sie das Projekt für die Produktion.",
+      "TEST": "<code>npm test</code>: Führen Sie Tests mit Jest aus."
+    }
+  },
+  "LINKS": {
+    "GITHUB": "Projekt GitHub Repository"
+  }
+}

@@ -1,0 +1,11 @@
+.error-page {
+  height: 100vh;
+  height: 100dvh;
+  background-color: var(--custom-global__background);
+  h2 {
+    color: var(--custom-404__page-heading);
+  }
+  p {
+    color: var(--custom-404__page-paragraph);
+  }
+}

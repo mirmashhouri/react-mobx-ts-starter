@@ -1,0 +1,22 @@
+// Typography =====================================
+
+$font-size-base: 1.6rem;
+
+$h1-font-size: 3.6rem;
+$h2-font-size: 2.4rem;
+$h3-font-size: 2rem;
+$h4-font-size: 1.8rem;
+$h5-font-size: 1.6rem;
+$h6-font-size: 1.4rem;
+
+@import "./variables/colors";
+@import "./variables/breakpoints";
+@import "./variables/spacing";
+
+@import "./variables/badge";
+@import "./variables/buttons";
+@import "./variables/tabs";
+@import "./variables/forms";
+@import "./variables/spinners";
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");

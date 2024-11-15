@@ -1,0 +1,24 @@
+{
+	"MobxStore": {
+		"prefix": ["store", "mobx"],
+		"body": [
+			"import {",
+			"  makeObservable, observable, action, computed, runInAction,",
+			"} from 'mobx';",
+			"",
+			"export default class ${1:${TM_DIRECTORY/^.+\\\\(.*)$/${1:/capitalize}/}} {",
+			"  @observable prop: string = '';",
+			"",
+			"  constructor() {",
+			"    ${2}",
+			"    makeObservable(this);",
+			"  }",
+			"",
+			"  @action",
+			"  ${3:method} = () => {};",
+			"}",
+			""
+		],
+		"description": "MobxStore"
+	}
+}

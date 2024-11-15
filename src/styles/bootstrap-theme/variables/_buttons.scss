@@ -1,0 +1,24 @@
+// Buttons =====================================
+
+$btn-focus-box-shadow: none;
+$input-btn-focus-box-shadow: none;
+$input-btn-focus-width: 0;
+$btn-disabled-opacity: 0.5;
+
+$btn-y-spacer: 0.7em;
+$btn-x-spacer: 1.2em;
+
+$btn-padding-y: $btn-y-spacer;
+$btn-padding-x: $btn-x-spacer;
+$btn-font-size: 1.4rem;
+
+$btn-padding-y-sm: $btn-y-spacer;
+$btn-padding-x-sm: $btn-x-spacer;
+$btn-font-size-sm: 1.2rem;
+
+$btn-padding-y-lg: $btn-y-spacer;
+$btn-padding-x-lg: $btn-x-spacer;
+$btn-font-size-lg: 1.8rem;
+
+$btn-transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out,
+  box-shadow 0.25s ease-out;

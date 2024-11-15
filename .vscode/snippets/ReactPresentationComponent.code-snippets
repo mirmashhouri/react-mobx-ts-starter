@@ -1,0 +1,29 @@
+{
+	"ReactPresentationComponent": {
+		"prefix": [
+			"rpres",
+			"rpc",
+			"reactPresantation"
+		],
+		"body": [
+			"import React from 'react';",
+			"import { useTranslation } from 'react-i18next';",
+			"import { I${1:${TM_DIRECTORY/^.+\\\\(.*)$/${1}/}} } from './types';",
+			"${3|import './styles.scss';,import styles from './styles.module.scss';, |}",
+			"",
+			"export const ${1:${TM_DIRECTORY/^.+\\\\(.*)$/${1}/}}: I${1:${TM_DIRECTORY/^.+\\\\(.*)$/${1}/}} = ({",
+			"  ${2:props}",
+			"}) => {",
+			"  const { t } = useTranslation();",
+			"",
+			"  return (",
+			"    <div>",
+			"      ${4:code}",
+			"    </div>",
+			"  );",
+			"};",
+			""
+		],
+		"description": "ReactPresentationComponent"
+	}
+}

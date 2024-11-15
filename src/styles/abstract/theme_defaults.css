@@ -1,0 +1,88 @@
+:root {
+   /* (color) Global background */
+   --custom-global__background: #1f1530;
+   /* (color) Global text color */
+   --custom-global__text: #ffffff;
+   /* (color) Player count text color */
+   --custom-global__player-count: #878791;
+   /* (color) Player count icon color */
+   --custom-global__player-count-icon: #afafb2;
+
+   /* (color) The scrollbar-color CSS property sets the color of the scrollbar track and thumb. */
+   --custom-scroll-bar__color: #ffffff2e;
+   --custom-scroll-bar__track-background: #ffffff21;
+   --custom-scroll-bar__track-shadow: #00000066;
+   --custom-scroll-bar__thumb-background: #ffffff66;
+
+   /* (color) Color of the spinner's border */
+   --custom-spinner__border: #fdc403;
+
+   /* (gradient) Navigation menu (on desktop/laptop) normal state background */
+   --custom-nav-bar__button-background: #ffffff00;
+   /* (color) Navigation menu (on desktop/laptop) normal state text color */
+   --custom-nav-bar__button-text: #a0a0a4;
+   /* (gradient) Navigation menu (on desktop/laptop) mouse hover state background */
+   --custom-nav-bar__button-hover-background: #ffffff24;
+   /* (color) Navigation menu (on desktop/laptop) mouse hover state text color */
+   --custom-nav-bar__button-hover-text: #ffffff;
+   /* (gradient) Navigation menu (on desktop/laptop) selected state background */
+   --custom-nav-bar__button-active-background: #ffffff24;
+   /* (color) Navigation menu (on desktop/laptop) selected state text color */
+   --custom-nav-bar__button-active-text: #ffffff;
+   /* (color) Navigation bar icons color */
+   --custom-nav-bar__icons: #ffffff;
+
+   /* (color) Footer and "Last Played" element background color */
+   --custom-footer__backdrop: #1f1530b3;
+   /* (color) Footer text color */
+   --custom-footer__text: #ffffff;
+   /* (color) Footer icons color (balance and username icons) */
+   --custom-footer__icons: #a0a0a4;
+   /* (color) Footer accented text color (ballance and username) */
+   --custom-footer__accent: #f9dc4a;
+
+   /* (gradient) Background for the alert modal (message popup, for example when disconnected) */
+   --custom-alert__background: #1f1530d9;
+   /* (color) Message and title text color for the alert modal (message popup, for example when disconnected) */
+   --custom-alert__text: #ffffff;
+
+   /* (gradient) Back button background when on mobile or tablet (top-left circular button) */
+   --custom-back-button__mobile-background: #342a44;
+   /* (color) Back button icon color */
+   --custom-back-button__icon: #ffffff;
+
+   /* (color) Favorite button color */
+   --custom-favorite-button__color: #ffffff;
+   /* (color) Favorite button color when selected */
+   --custom-favorite-button__color-selected: #e70280;
+
+   /* (gradient) Primary button background (play now and more info button) */
+   --custom-primary-button__background: linear-gradient(90deg, #f9dc4a, #fdc403);
+   /* (color) Primary button text color (play now and more info button) */
+   --custom-primary-button__text: #000000;
+   /* (gradient) Primary button background when mouse hovered (play now and more info button) */
+   --custom-primary-button__hover-background: linear-gradient(90deg, #ffe66b, #fdc403);
+   /* (color) Primary button text color when mouse hovered (play now and more info button) */
+   --custom-primary-button__hover-text: #000000;
+   /* (gradient) Primary button background when disabled (play now and more info button) */
+   --custom-primary-button__disabled-background: linear-gradient(90deg, #f9dc4a, #fdc403);
+   /* (gradient) Primary button text color when disabled (play now and more info button) */
+   --custom-primary-button__disabled-text: #000000;
+
+   /* (gradient) Secondary button background (banners more info button) */
+   --custom-secondary-button__background: #ffffff21;
+   /* (color) Secondary button text color (banners more info button) */
+   --custom-secondary-button__text: #ffffff;
+   /* (gradient) Secondary button background when mouse hovered (banners more info button) */
+   --custom-secondary-button__hover-background: #ffffff;
+   /* (color) Secondary button text color when mouse hovered (banners more info button) */
+   --custom-secondary-button__hover-text: #000000;
+   
+   /* (color) 404 Page heading color */
+   --custom-404__page-heading: #fff;
+   /* (color) 404 Page paragraph color */
+   --custom-404__page-paragraph: #878791;
+
+   /* (color) skeleton background color */
+   --custom-skeleton__background: #cccccc;
+}

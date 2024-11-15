@@ -1,0 +1,35 @@
+{
+  "ERRORS": {
+    "AUTHENTICATION_ERROR": "User authentication failed.",
+    "AUTHENTICATION_MESSAGE": "This user doesn't exist.",
+    "SESSION_ERROR": "Your session has expired.",
+    "SESSION_MESSAGE": "Please log in again.",
+    "404": "Error 404",
+    "REQUESTED_URL_NOT_EXIST": "The requested url doesn't exist"
+  },
+  "HOME": {
+    "WELCOME_MESSAGE": "Welcome to React MobX Starter",
+    "DESCRIPTION": "This boilerplate is a powerful starting point for building modern web applications using React, MobX, and TypeScript.",
+    "KEY_FEATURES_TITLE": "Key Features",
+    "KEY_FEATURES": {
+      "REACT": "🚀 <b>React</b>: Build interactive UIs with a component-based architecture.",
+      "MOBX": "📦 <b>MobX</b>: Manage your application state efficiently with a simple and intuitive API.",
+      "BOOTSTRAP": "🎨 <b>Bootstrap</b>: Quickly create responsive layouts with a mobile-first approach.",
+      "SCSS": "✨ <b>SCSS</b>: Utilize the power of SASS for more dynamic and maintainable styles.",
+      "TYPESCRIPT": "📜 <b>TypeScript</b>: Enhance your JavaScript code with static type checking for a better development experience.",
+      "WEBPACK": "⚙️ <b>Webpack</b>: Use Webpack for module bundling, asset management, and optimization.",
+      "JEST": "🧪 <b>Jest</b>: Write and run tests easily to ensure your application works as intended."
+    },
+    "AVAILABLE_COMMANDS_TITLE": "Available Commands",
+    "AVAILABLE_COMMANDS": {
+      "START": "<code>npm start</code>: Start the development server with hot reloading and open in browser.",
+      "START_NO_OPEN": "<code>npm run start-no-open</code>: Start the development server without opening the browser.",
+      "PROD": "<code>npm run prod</code>: Start the production server with hot reloading and open in browser.",
+      "BUILD": "<code>npm run build</code>: Build the project for production.",
+      "TEST": "<code>npm test</code>: Run tests using Jest."
+    }
+  },
+  "LINKS": {
+    "GITHUB": "Project GitHub Repository"
+  }
+}

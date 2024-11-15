@@ -1,0 +1,1 @@
+export { globalStoreMock } from './GlobalStoreMock';

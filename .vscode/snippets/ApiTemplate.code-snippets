@@ -1,0 +1,17 @@
+{
+	"ApiTemplate": {
+		"prefix": "api",
+		"body": [
+			"import { Endpoint } from 'api/EndpointClass';",
+			"import type { I${1:${TM_DIRECTORY/^.+\\\\(.*)$/${1}/}}Api } from './types';",
+			"",
+			"const baseUrl = '${2:basePath}';",
+			"",
+			"export const ${1:${TM_DIRECTORY/^.+\\\\(.*)$/${1}/}}Api : I${1:${TM_DIRECTORY/^.+\\\\(.*)$/${1}/}}Api = {",
+			"  ${3:example}: new Endpoint('${4:post}', '${5:path}', baseUrl)${6}.build(),",
+			"};",
+			""
+		],
+		"description": "ApiTemplate"
+	}
+}
